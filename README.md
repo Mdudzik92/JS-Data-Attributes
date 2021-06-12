@@ -19,6 +19,9 @@ This is a GIF playing app where the user is given several GIFs to choose from. T
 
 https://drive.google.com/file/d/1nhYCc9rfz_yDK6DXQlG_5fgbLHzU3GKD/view?usp=sharing
 
+<!-- Screenshot -->
+<img src="./img1.png">
+
 <!-- License -->
 
 MIT
