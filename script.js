@@ -17,6 +17,10 @@ imageContainer.addEventListener("click", function (event) {
 			element.setAttribute("data-state", "animate");
 			// ...and using the source link of it moving instead of it's still source link.
 			element.setAttribute("src", element.getAttribute("data-animate"));
+		} else if (state === "animate") {
+			// Setting it back to still when the GIF is clicked again.
+			element.setAttribute("data-state", "still");
+			element.setAttribute("src", element.getAttribute("data-still"));
 		}
 	}
 });
